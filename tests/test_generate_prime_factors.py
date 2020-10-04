@@ -22,6 +22,13 @@ def test_one_prime_factors():
 
 def test_two_prime_factors():
     """
-    The prime factor of one is an empty list
+    The prime factor of two is 2
     """
     assert generate_prime_factors(2) == [2]
+
+
+def test_three_prime_factors():
+    """
+    The prime factor of three is 3
+    """
+    assert generate_prime_factors(3) == [3]
