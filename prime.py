@@ -11,4 +11,4 @@ def generate_prime_factors(number_input):
         raise ValueError
 
     if number_input == 1:
-        return prime_factors
+        prime_factors.append()
