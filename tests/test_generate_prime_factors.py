@@ -6,5 +6,15 @@ import pytest
 from prime import generate_prime_factors
 
 def test_data_type():
+    """
+    Test the type of input number, integer expected
+    """
     with pytest.raises(ValueError):
         generate_prime_factors(0.3)
+
+
+def test_one_prime_factors():
+    """
+    The prime factor of one is an empty list
+    """
+    assert generate_prime_factors(1) == []
