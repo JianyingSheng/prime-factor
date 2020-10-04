@@ -18,3 +18,10 @@ def test_one_prime_factors():
     The prime factor of one is an empty list
     """
     assert generate_prime_factors(1) == []
+
+
+def test_two_prime_factors():
+    """
+    The prime factor of one is an empty list
+    """
+    assert generate_prime_factors(2) == [2]
