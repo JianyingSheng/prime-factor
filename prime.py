@@ -2,7 +2,7 @@
 prime.py
 using pytest -s to input the number
 """
-Number = int(input(" Please Enter any Number: "))
+#Number = int(input(" Please Enter any Number: "))
 
 def generate_prime_factors(number_input):
     """
@@ -29,5 +29,5 @@ def generate_prime_factors(number_input):
                 prime_factors.append(number_input)
     return prime_factors
 
-print ("The prime factors of " + str(Number) + " is a list of following:")
-print (generate_prime_factors(Number))
+#print ("The prime factors of " + str(Number) + " is a list of following:")
+#print (generate_prime_factors(Number))
