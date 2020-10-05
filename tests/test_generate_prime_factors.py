@@ -50,3 +50,9 @@ def test_eight_prime_factors():
     The prime factor of eight is [2,2,2]
     """
     assert generate_prime_factors(8) == [2,2,2]
+
+def test_nine_prime_factors():
+    """
+    The prime factor of nine is [3,3]
+    """
+    assert generate_prime_factors(9) == [3,3]
