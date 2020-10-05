@@ -32,3 +32,9 @@ def test_three_prime_factors():
     The prime factor of three is 3
     """
     assert generate_prime_factors(3) == [3]
+
+def test_four_prime_factors():
+    """
+    The prime factor of four is [2,2]
+    """
+    assert generate_prime_factors(4) == [2,2]
