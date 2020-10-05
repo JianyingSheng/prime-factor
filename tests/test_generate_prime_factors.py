@@ -41,6 +41,12 @@ def test_four_prime_factors():
 
 def test_six_prime_factors():
     """
-    The prime factor of four is [2,3]
+    The prime factor of six is [2,3]
     """
     assert generate_prime_factors(6) == [2,3]
+
+def test_eight_prime_factors():
+    """
+    The prime factor of eight is [2,2,2]
+    """
+    assert generate_prime_factors(8) == [2,2,2]
